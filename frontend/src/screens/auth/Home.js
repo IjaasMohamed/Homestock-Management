@@ -11,7 +11,7 @@ const Home = () => {
         className='d-flex justify-content-center align-items-center'
         style={{ height: '70vh' }}
       >
-        <span className='text-muted'>Welcome MERN Boilerplate</span>
+        <span className='text-muted'>Home Stock Landing</span>
       </div>
     </>
   )

@@ -29,16 +29,16 @@ const roles = [
 ]
 
 const users = {
-  name: 'Ahmed Ibrahim',
-  email: 'info@ahmedibra.com',
+  name: 'Ijaas Fouzer',
+  email: 'ijaasfouzer@fouxer.com',
   password: '123456',
   confirmed: true,
   blocked: false,
 }
 
 const profile = {
-  phone: '+252615301507',
-  address: 'Mogadishu',
+  phone: '+776131011',
+  address: 'Malabe, Sri Lanka',
   image: 'https://github.com/ahmaat19.png',
   bio: 'Full Stack Developer',
 }
