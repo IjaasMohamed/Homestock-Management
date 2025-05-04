@@ -1,0 +1,121 @@
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+.add-stock-container header h1 {
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+  position: relative;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+
+/* Form Section Styles */
+.form-container {
+   
+    width: 100%;
+  padding: 25px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e71616;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Table Styles */
+.current-stock {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-stock h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.current-stock table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.current-stock th, 
+.current-stock td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.current-stock th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.current-stock tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.add-stock-btn, .clear-stock-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.add-stock-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.clear-stock-btn {
+    background-color: black;
+    color: white;
+}
+
+.add-stock-btn:hover {
+    background-color: #218838;
+}
+
+.clear-stock-btn:hover {
+    background-color: #444;
+}
