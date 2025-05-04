@@ -1,0 +1,67 @@
+/* Container for the stock alerts */
+.stock-alerts-container {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the stock alerts section */
+.stock-alerts-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Subheading for the expired stock section */
+.expired-stock-heading {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ef4444; /* red */
+    margin-bottom: 0.5rem;
+}
+
+/* Table styling for stock lists */
+.stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d1d5db;
+    margin-bottom: 1.5rem;
+}
+
+/* Table headers */
+.stock-table th {
+    padding: 0.5rem;
+    background-color: #fef2f2; /* light red */
+    text-align: left;
+}
+
+/* Table rows */
+.stock-table td {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+}
+
+/* Empty state message when no data is available */
+.no-data-message {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Styling for the low stock section */
+.low-stock-heading {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #f59e0b; /* yellow */
+    margin-bottom: 0.5rem;
+}
+
+/* Text colors for statuses */
+.expired-status {
+    color: #ef4444; /* red */
+}
+
+.low-stock-status {
+    color: #f59e0b; /* yellow */
+}
